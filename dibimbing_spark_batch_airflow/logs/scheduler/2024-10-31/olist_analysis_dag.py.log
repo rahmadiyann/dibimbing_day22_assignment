@@ -1,0 +1,81 @@
+[2024-10-31T07:20:31.136+0000] {processor.py:161} INFO - Started process (PID=164) to work on /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:20:31.138+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/olist_analysis_dag.py for tasks to queue
+[2024-10-31T07:20:31.139+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:20:31.139+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:20:31.161+0000] {processor.py:840} INFO - DAG(s) 'olist_analysis_pipeline' retrieved from /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:20:31.314+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:20:31.313+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:olist_analysis_pipeline
+[2024-10-31T07:20:31.317+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:20:31.316+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:olist_analysis_pipeline
+[2024-10-31T07:20:31.322+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:20:31.322+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:olist_analysis_pipeline
+[2024-10-31T07:20:31.323+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:20:31.323+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-31T07:20:31.330+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:20:31.330+0000] {dag.py:3118} INFO - Creating ORM DAG for olist_analysis_pipeline
+[2024-10-31T07:20:31.337+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:20:31.337+0000] {dag.py:3954} INFO - Setting next_dagrun for olist_analysis_pipeline to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-31T07:20:31.347+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/olist_analysis_dag.py took 0.216 seconds
+[2024-10-31T07:21:01.620+0000] {processor.py:161} INFO - Started process (PID=184) to work on /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:21:01.621+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/olist_analysis_dag.py for tasks to queue
+[2024-10-31T07:21:01.623+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:21:01.623+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:21:01.637+0000] {processor.py:840} INFO - DAG(s) 'olist_analysis_pipeline' retrieved from /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:21:01.680+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:21:01.680+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-31T07:21:01.699+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:21:01.699+0000] {dag.py:3954} INFO - Setting next_dagrun for olist_analysis_pipeline to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-31T07:21:01.710+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/olist_analysis_dag.py took 0.113 seconds
+[2024-10-31T07:21:32.138+0000] {processor.py:161} INFO - Started process (PID=204) to work on /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:21:32.139+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/olist_analysis_dag.py for tasks to queue
+[2024-10-31T07:21:32.144+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:21:32.143+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:21:32.171+0000] {processor.py:840} INFO - DAG(s) 'olist_analysis_pipeline' retrieved from /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:21:32.197+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:21:32.197+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-31T07:21:32.211+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:21:32.211+0000] {dag.py:3954} INFO - Setting next_dagrun for olist_analysis_pipeline to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-31T07:21:32.224+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/olist_analysis_dag.py took 0.096 seconds
+[2024-10-31T07:22:02.693+0000] {processor.py:161} INFO - Started process (PID=224) to work on /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:22:02.697+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/olist_analysis_dag.py for tasks to queue
+[2024-10-31T07:22:02.703+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:22:02.702+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:22:02.716+0000] {processor.py:840} INFO - DAG(s) 'olist_analysis_pipeline' retrieved from /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:22:02.752+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:22:02.752+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-31T07:22:02.768+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:22:02.768+0000] {dag.py:3954} INFO - Setting next_dagrun for olist_analysis_pipeline to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-31T07:22:02.795+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/olist_analysis_dag.py took 0.122 seconds
+[2024-10-31T07:22:33.212+0000] {processor.py:161} INFO - Started process (PID=244) to work on /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:22:33.214+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/olist_analysis_dag.py for tasks to queue
+[2024-10-31T07:22:33.218+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:22:33.217+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:22:33.236+0000] {processor.py:840} INFO - DAG(s) 'olist_analysis_pipeline' retrieved from /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:22:33.278+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:22:33.278+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-31T07:22:33.298+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:22:33.297+0000] {dag.py:3954} INFO - Setting next_dagrun for olist_analysis_pipeline to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-31T07:22:33.313+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/olist_analysis_dag.py took 0.113 seconds
+[2024-10-31T07:22:51.652+0000] {processor.py:161} INFO - Started process (PID=264) to work on /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:22:51.655+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/olist_analysis_dag.py for tasks to queue
+[2024-10-31T07:22:51.663+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:22:51.662+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:22:51.687+0000] {processor.py:840} INFO - DAG(s) 'olist_analysis_pipeline' retrieved from /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:22:51.815+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:22:51.815+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-31T07:22:51.834+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:22:51.833+0000] {dag.py:3954} INFO - Setting next_dagrun for olist_analysis_pipeline to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-31T07:22:51.848+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/olist_analysis_dag.py took 0.205 seconds
+[2024-10-31T07:23:22.136+0000] {processor.py:161} INFO - Started process (PID=284) to work on /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:23:22.139+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/olist_analysis_dag.py for tasks to queue
+[2024-10-31T07:23:22.141+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:23:22.141+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:23:22.157+0000] {processor.py:840} INFO - DAG(s) 'olist_analysis_pipeline' retrieved from /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:23:22.183+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:23:22.183+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-31T07:23:22.200+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:23:22.200+0000] {dag.py:3954} INFO - Setting next_dagrun for olist_analysis_pipeline to 2024-10-30 00:00:00+00:00, run_after=2024-10-31 00:00:00+00:00
+[2024-10-31T07:23:22.211+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/olist_analysis_dag.py took 0.084 seconds
+[2024-10-31T07:23:52.544+0000] {processor.py:161} INFO - Started process (PID=789) to work on /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:23:52.546+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/olist_analysis_dag.py for tasks to queue
+[2024-10-31T07:23:52.549+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:23:52.548+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:23:52.595+0000] {processor.py:840} INFO - DAG(s) 'olist_analysis_pipeline' retrieved from /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:23:52.694+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:23:52.694+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-31T07:23:52.800+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:23:52.800+0000] {dag.py:3954} INFO - Setting next_dagrun for olist_analysis_pipeline to 2024-10-31 00:00:00+00:00, run_after=2024-11-01 00:00:00+00:00
+[2024-10-31T07:23:52.816+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/olist_analysis_dag.py took 0.282 seconds
+[2024-10-31T07:24:22.984+0000] {processor.py:161} INFO - Started process (PID=1004) to work on /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:24:22.987+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/olist_analysis_dag.py for tasks to queue
+[2024-10-31T07:24:22.989+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:24:22.989+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:24:23.004+0000] {processor.py:840} INFO - DAG(s) 'olist_analysis_pipeline' retrieved from /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:24:23.039+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:24:23.039+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-31T07:24:23.056+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:24:23.055+0000] {dag.py:3954} INFO - Setting next_dagrun for olist_analysis_pipeline to 2024-10-31 00:00:00+00:00, run_after=2024-11-01 00:00:00+00:00
+[2024-10-31T07:24:23.068+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/olist_analysis_dag.py took 0.090 seconds
+[2024-10-31T07:24:53.457+0000] {processor.py:161} INFO - Started process (PID=1024) to work on /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:24:53.459+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/olist_analysis_dag.py for tasks to queue
+[2024-10-31T07:24:53.463+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:24:53.463+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:24:53.481+0000] {processor.py:840} INFO - DAG(s) 'olist_analysis_pipeline' retrieved from /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:24:53.507+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:24:53.507+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-31T07:24:53.529+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:24:53.529+0000] {dag.py:3954} INFO - Setting next_dagrun for olist_analysis_pipeline to 2024-10-31 00:00:00+00:00, run_after=2024-11-01 00:00:00+00:00
+[2024-10-31T07:24:53.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/olist_analysis_dag.py took 0.110 seconds
+[2024-10-31T07:25:23.877+0000] {processor.py:161} INFO - Started process (PID=1044) to work on /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:25:23.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/olist_analysis_dag.py for tasks to queue
+[2024-10-31T07:25:23.883+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:25:23.883+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:25:23.901+0000] {processor.py:840} INFO - DAG(s) 'olist_analysis_pipeline' retrieved from /opt/airflow/dags/olist_analysis_dag.py
+[2024-10-31T07:25:23.927+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:25:23.926+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-31T07:25:23.941+0000] {logging_mixin.py:188} INFO - [2024-10-31T07:25:23.941+0000] {dag.py:3954} INFO - Setting next_dagrun for olist_analysis_pipeline to 2024-10-31 00:00:00+00:00, run_after=2024-11-01 00:00:00+00:00
+[2024-10-31T07:25:23.950+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/olist_analysis_dag.py took 0.083 seconds

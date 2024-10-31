@@ -1,0 +1,115 @@
+[2024-10-31T07:20:31.085+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2024-10-31T07:20:31.086+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-10-31T07:20:31.086+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-10-31T07:20:31.087+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-10-31T07:20:31.091+0000] {manager.py:740} INFO - There are 4 files in /opt/airflow/dags
+[2024-10-31T07:20:31.151+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/spark-pg-read-dag-example.py    167  0.02s             0           0
+/opt/airflow/dags/spark-dag-example.py                                   0           0
+/opt/airflow/dags/spark-pg-etl-dag-example.py                            0           0
+/opt/airflow/dags/olist_analysis_dag.py           164  0.03s             0           0
+================================================================================
+[2024-10-31T07:21:01.597+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/olist_analysis_dag.py           184  0.02s             1           0  0.23s           2024-10-31T07:20:31
+/opt/airflow/dags/spark-pg-read-dag-example.py    187  0.00s             1           0  0.22s           2024-10-31T07:20:31
+/opt/airflow/dags/spark-pg-etl-dag-example.py                            1           0  0.11s           2024-10-31T07:20:31
+/opt/airflow/dags/spark-dag-example.py                                   1           0  0.11s           2024-10-31T07:20:31
+================================================================================
+[2024-10-31T07:21:32.128+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/olist_analysis_dag.py           204  0.02s             1           0  0.14s           2024-10-31T07:21:01
+/opt/airflow/dags/spark-pg-read-dag-example.py    207  0.00s             1           0  0.12s           2024-10-31T07:21:01
+/opt/airflow/dags/spark-pg-etl-dag-example.py                            1           0  0.09s           2024-10-31T07:21:01
+/opt/airflow/dags/spark-dag-example.py                                   1           0  0.07s           2024-10-31T07:21:01
+================================================================================
+[2024-10-31T07:22:02.672+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/olist_analysis_dag.py           224  0.07s             1           0  0.13s           2024-10-31T07:21:32
+/opt/airflow/dags/spark-pg-read-dag-example.py    227  0.01s             1           0  0.10s           2024-10-31T07:21:32
+/opt/airflow/dags/spark-pg-etl-dag-example.py                            1           0  0.06s           2024-10-31T07:21:32
+/opt/airflow/dags/spark-dag-example.py                                   1           0  0.05s           2024-10-31T07:21:32
+================================================================================
+[2024-10-31T07:22:33.197+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/olist_analysis_dag.py           244  0.02s             1           0  0.22s           2024-10-31T07:22:02
+/opt/airflow/dags/spark-pg-read-dag-example.py    247  0.00s             1           0  0.16s           2024-10-31T07:22:02
+/opt/airflow/dags/spark-pg-etl-dag-example.py                            1           0  0.08s           2024-10-31T07:22:02
+/opt/airflow/dags/spark-dag-example.py                                   1           0  0.05s           2024-10-31T07:22:02
+================================================================================
+[2024-10-31T07:23:03.818+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/olist_analysis_dag.py                                  1           0  0.25s           2024-10-31T07:22:51
+/opt/airflow/dags/spark-pg-read-dag-example.py    269  0.03s             1           0  0.12s           2024-10-31T07:22:33
+/opt/airflow/dags/spark-pg-etl-dag-example.py     272  0.01s             1           0  0.06s           2024-10-31T07:22:33
+/opt/airflow/dags/spark-dag-example.py                                   1           0  0.06s           2024-10-31T07:22:33
+================================================================================
+[2024-10-31T07:23:34.231+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark-pg-read-dag-example.py    436  0.02s             1           0  0.14s           2024-10-31T07:23:03
+/opt/airflow/dags/spark-pg-etl-dag-example.py     442  0.01s             1           0  0.12s           2024-10-31T07:23:03
+/opt/airflow/dags/olist_analysis_dag.py                                  1           0  0.11s           2024-10-31T07:23:22
+/opt/airflow/dags/spark-dag-example.py                                   1           0  0.05s           2024-10-31T07:23:03
+================================================================================
+[2024-10-31T07:24:04.657+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/olist_analysis_dag.py                                  1           0  0.31s           2024-10-31T07:23:52
+/opt/airflow/dags/spark-pg-read-dag-example.py    989  0.03s             1           0  0.14s           2024-10-31T07:23:34
+/opt/airflow/dags/spark-pg-etl-dag-example.py     992  0.01s             1           0  0.14s           2024-10-31T07:23:34
+/opt/airflow/dags/spark-dag-example.py                                   1           0  0.08s           2024-10-31T07:23:34
+================================================================================
+[2024-10-31T07:24:35.137+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/spark-pg-read-dag-example.py   1009  0.02s             1           0  0.18s           2024-10-31T07:24:04
+/opt/airflow/dags/spark-pg-etl-dag-example.py    1012  0.01s             1           0  0.15s           2024-10-31T07:24:04
+/opt/airflow/dags/olist_analysis_dag.py                                  1           0  0.12s           2024-10-31T07:24:23
+/opt/airflow/dags/spark-dag-example.py                                   1           0  0.05s           2024-10-31T07:24:04
+================================================================================
+[2024-10-31T07:25:05.577+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/olist_analysis_dag.py                                  1           0  0.14s           2024-10-31T07:24:53
+/opt/airflow/dags/spark-pg-read-dag-example.py   1029  0.02s             1           0  0.14s           2024-10-31T07:24:35
+/opt/airflow/dags/spark-pg-etl-dag-example.py    1032  0.00s             1           0  0.13s           2024-10-31T07:24:35
+/opt/airflow/dags/spark-dag-example.py                                   1           0  0.06s           2024-10-31T07:24:35
+================================================================================
